@@ -7,8 +7,8 @@ gwt {
     minHeapSize="1G"
 
     src = files(file("src/")) // Needs to be in front of "modules" below.
-    modules 'com.zarudama.GdxDefinition'
-    devModules 'com.zarudama.GdxDefinitionSuperdev'
+    modules 'com.rethm.GdxDefinition'
+    devModules 'com.rethm.GdxDefinitionSuperdev'
     project.webAppDirName = 'webapp'
 
     compiler {
